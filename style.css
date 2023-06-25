@@ -75,6 +75,9 @@ p,
     align-items: center;
 }
 
+.position{
+    position: relative;
+}
 
 /* styling header */
 .navbar{
@@ -268,15 +271,13 @@ button{
 }
 
 .before_header::before{
-    content: " ";
+    content: url(./img/Line\ 70.png);
     position: absolute;
-    left: -15px;
-    height: 100%;
-    width: 5px;
-    border: 3px solid red;
-    /* background-image:  */
-
 }
+.before_header::before{
+    left: -15px;
+}
+
 
 .why_us-one p{
     padding: 0 0 0 15px;
